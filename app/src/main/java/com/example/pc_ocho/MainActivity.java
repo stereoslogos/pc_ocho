@@ -73,14 +73,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void hp(View view){
         jtvPrecio.setText("1900000");
+        calc_tot();
     }
 
     public void lenovo(View view){
         jtvPrecio.setText("2100000");
+        calc_tot();
     }
 
     public void asus(View view){
         jtvPrecio.setText("1700000");
+        calc_tot();
     }
 
     public void disco(View view){
@@ -89,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
         }else{
             jtvDisco.setText("0");
         }
+        calc_tot();
     }
 
     public void limpiar(View view){
